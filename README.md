@@ -4,19 +4,5 @@
 - 以 Vue 為教學 Sample
 
 
-## install package Command line
-``` bash
-npm install
-```
+## 01-basic
 
-## Development Command line
-``` bash
-# build for developemnt
-npm run start
-```
-
-## Production Command line
-``` bash
-# build for production with minification
-npm run build
-```
