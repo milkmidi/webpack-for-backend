@@ -4,5 +4,5 @@ import {add} from './utils/helpersUtil';
 new Vue({
   el: '#app'
 })
-console.log('about.js');
+console.log('test.js');
 console.log(add(1,1));

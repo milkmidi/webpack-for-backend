@@ -1,14 +1,9 @@
-﻿// 用 CDNJS 引入，所以就不需要寫 import Vue
-// import Vue from 'vue';
-
-import MyButton from './components/MyButton.vue';
-
-const app = new Vue({
-  el: '#app',
-  data:{
-    message: 'App Message'
-  },
-  components:{
-    MyButton
-  }
+﻿import Vue from 'vue';
+import {add} from './utils/helpersUtil';
+import {sub} from './utils/methodUtil';
+new Vue({
+  el: '#app'
 })
+console.log('app.js');
+console.log(add(1,1));
+console.log(sub(2,1));
