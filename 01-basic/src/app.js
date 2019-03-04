@@ -8,3 +8,13 @@ var add = (a , b) => {
   return a + b;
 }
 console.log(add(1,1));
+
+
+class MyCat {
+  cry(){
+    console.log('喵喵喵');
+  }
+}
+
+var cat = new MyCat();
+cat.cry();

@@ -24,7 +24,9 @@ module.exports = (env, argv) => {
       rules: [
         {
           // .js , .jsx 就由 babel-loader 來處理
-          // babel 就是將 ES6 等新語法，轉換成向下相容舊Browser的工具
+          // babel 就是將 ES6 等新語法，轉換成向下相容舊的 ES5 語法工具
+          // 這裡有 ES6 新語法介紹
+          // http://es6-features.org/
           test: /\.jsx?$/,
           loader: 'babel-loader',
         },
