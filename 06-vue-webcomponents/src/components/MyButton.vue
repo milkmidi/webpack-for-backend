@@ -5,9 +5,6 @@ export default {
       message: 'Helo, .vue file',
     }
   },
-  mounted() {
-    console.log('MyButton mounted');
-  },
 };
 </script>
 
@@ -20,6 +17,11 @@ export default {
 
 <style scoped>
 .my-button {
+  display: inline-block;
   color: blue;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 </style>
